@@ -1,3 +1,4 @@
+import 'package:calculator/complete_calculator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Calculator(),
+      home: Complete_Calculator(),
     );
   }
 
